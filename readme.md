@@ -5,7 +5,7 @@ A cli tool for quick random password and secret key generator
 ### Usage 
 
 ```bash
-npm i -g randomkeygen
+npm i -g @krcgk/randomkeygen
 
 randomkeygen
 # JM7jfXJOo9bt

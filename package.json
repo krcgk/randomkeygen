@@ -1,5 +1,5 @@
 {
-  "name": "randomkeygen",
+  "name": "@krcgk/randomkeygen",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/randomkeygen.js",
@@ -10,10 +10,11 @@
     "create": "npm run build && npm run test",
     "build": "tsc -p .",
     "test": "npm i -g && randomkeygen",
+    "postinstall": "npm run build",
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
   },
   "keywords": [],
-  "author": "",
+  "author": "krcgk <karaca.gkhan@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.20.0"
