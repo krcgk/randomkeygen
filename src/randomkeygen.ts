@@ -2,13 +2,9 @@
 
 const program = require('commander');
 
-function strong () {
-  console.log('pgtstrong')
-}
-
 program
-  .version('1.0.1', '-v, --version')
-  .description('pg is a cli tool for password generation')
+  .version('1.0.2', '-v, --version')
+  .description('randomkeygen is a cli tool for password generation')
   .option('-l, --length', 'String length')
   .option('-c, --charsets', 'Available Charsets: alpha, numeric, special, ultra')
   .option('-u, --upper', 'Uppercase string')

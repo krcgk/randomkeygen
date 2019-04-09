@@ -1,6 +1,6 @@
 {
   "name": "@krcgk/randomkeygen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./dist/randomkeygen.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "create": "npm run build && npm run test",
-    "build": "tsc -p .",
+    "build": "./node_modules/.bin/tsc -p .",
     "test": "npm i -g && randomkeygen",
     "preinstall": "npm run build",
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
