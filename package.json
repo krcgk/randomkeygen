@@ -1,8 +1,12 @@
 {
   "name": "@krcgk/randomkeygen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./dist/randomkeygen.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krcgk/randomkeygen.git"
+  },
   "bin": {
     "randomkeygen": "./dist/randomkeygen.js"
   },
@@ -10,7 +14,6 @@
     "create": "npm run build && npm run test",
     "build": "./node_modules/.bin/tsc -p .",
     "test": "npm i -g && randomkeygen",
-    "postinstall": "npm run build",
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
   },
   "keywords": [],

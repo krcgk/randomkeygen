@@ -3,7 +3,7 @@
 const program = require('commander');
 
 program
-  .version('1.0.2', '-v, --version')
+  .version('1.0.4', '-v, --version')
   .description('randomkeygen is a cli tool for password generation')
   .option('-l, --length', 'String length')
   .option('-c, --charsets', 'Available Charsets: alpha, numeric, special, ultra')
