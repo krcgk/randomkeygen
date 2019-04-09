@@ -7,7 +7,7 @@ function strong () {
 }
 
 program
-  .version('0.0.1', '-v, --version')
+  .version('1.0.1', '-v, --version')
   .description('pg is a cli tool for password generation')
   .option('-l, --length', 'String length')
   .option('-c, --charsets', 'Available Charsets: alpha, numeric, special, ultra')
